@@ -1,6 +1,6 @@
 {
-  "name": "ose-dev",
-  "id": "ose-dev",
+  "name": "ose",
+  "id": "ose",
   "title": "Old-School Essentials Development Build",
   "description": "Simple, robust rules compatible with decades of Basic/Expert material",
   "version": "AUTOMATICALLY REPLACED BY GITHUB WORKFLOW ACTION",
