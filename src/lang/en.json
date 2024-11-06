@@ -183,6 +183,8 @@
   "OSE.Setting.InitiativeKeep": "Keep for each round",
   "OSE.Setting.InitiativeReroll": "Reroll each round",
   "OSE.Setting.InitiativeReset": "Reset each round",
+  "OSE.Setting.globalIgnoreBonusDamage": "Ignore Weapon Bonus to Damage",
+  "OSE.Setting.globalIgnoreBonusDamageHint": "Don't automatically add a weapon's magic/to-hit bonus to its damage",
   "OSE.Setting.AscendingAC": "Ascending Armor Class",
   "OSE.Setting.AscendingACHint": "The more the better",
   "OSE.Setting.Morale": "Enable monsters Morale Rating",
