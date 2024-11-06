@@ -37,6 +37,15 @@ const registerSettings = () => {
     },
   });
 
+  game.settings.register(game.system.id, "globalIgnoreBonusDamage", {
+    name: game.i18n.localize("OSE.Setting.globalIgnoreBonusDamage"),
+    hint: game.i18n.localize("OSE.Setting.globalIgnoreBonusDamageHint"),
+    default: false,
+    scope: "world",
+    type: Boolean,
+    config: true,
+  });
+
   game.settings.register(game.system.id, "ascendingAC", {
     name: game.i18n.localize("OSE.Setting.AscendingAC"),
     hint: game.i18n.localize("OSE.Setting.AscendingACHint"),

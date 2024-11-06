@@ -13,13 +13,14 @@
         data-dtype="Boolean" />
     </div>
   </div>
-  <div class="form-group">
-    <label for="retainer">{{localize "OSE.Tweaks.DontApplyWeaponBonusToDamageRoll"}}</label>
-    <div class="form-fields">
-      <input type="checkbox" name="system.config.ignoreBonusDamage" id="ignoreBonusDamage" {{checked system.config.ignoreBonusDamage}}
-        data-dtype="Boolean" />
-    </div>
-  </div>
+  {{!-- Temporarily commented out for global option --}}
+  {{!-- <div class="form-group"> --}}
+    {{!-- <label for="ignoreBonusDamage">{{localize "OSE.Tweaks.DontApplyWeaponBonusToDamageRoll"}}</label> --}}
+    {{!-- <div class="form-fields"> --}}
+      {{!-- <input type="checkbox" name="system.config.ignoreBonusDamage" id="ignoreBonusDamage" {{checked system.config.ignoreBonusDamage}} --}}
+      {{!-- data-dtype="Boolean" /> --}}
+      {{!-- </div> --}}
+  {{!-- </div> --}}
   <div class="form-group">
     <label>{{localize "OSE.InitiativeBonus"}}</label>
     <div class="form-fields">
