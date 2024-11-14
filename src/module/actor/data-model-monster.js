@@ -178,7 +178,7 @@ export default class OseDataModelMonster extends foundry.abstract.TypeDataModel 
   get isSlow() {
     return this.weapons.length === 0
       ? false
-      : this.weapons.every(
+      : this.weapons.some(
           (item) => !(item.type !== "weapon" || !item.system.slow)
         );
   }
